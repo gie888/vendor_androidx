@@ -59,3 +59,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGE_OVERLAYS += vendor/androidx/overlay/common
 
 -include vendor/androidx/sepolicy/sepolicy.mk
+
+# Backuptool Support
+PRODUCT_COPY_FILES += \
+    vendor/androidx/prebuilt/common/addon.d/50-icarus.sh:system/addon.d/50-icarus.sh \
+    vendor/androidx/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh \
+    vendor/androidx/prebuilt/common/bin/backuptool.functions:system/bin/backuptool.functions \
