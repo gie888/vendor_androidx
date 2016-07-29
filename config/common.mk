@@ -54,3 +54,6 @@ PRODUCT_COPY_FILES += \
     vendor/androidx/prebuilt/common/addon.d/50-icarus.sh:system/addon.d/50-icarus.sh \
     vendor/androidx/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh \
     vendor/androidx/prebuilt/common/bin/backuptool.functions:system/bin/backuptool.functions \
+
+# Don't compile SystemUITests
+EXCLUDE_SYSTEMUI_TESTS := true
