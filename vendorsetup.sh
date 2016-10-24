@@ -15,5 +15,6 @@
 #
 
 add_lunch_combo androidx_angler-userdebug
+add_lunch_combo androidx_bullhead-userdebug
 add_lunch_combo androidx_hammerhead-userdebug
 add_lunch_combo androidx_shamu-userdebug
