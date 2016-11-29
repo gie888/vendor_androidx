@@ -19,9 +19,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 ADDITIONAL_DEFAULT_PROPERTIES += ro.adb.secure=0
 
 # Bring in camera effects
+ifneq ($(filter shamu,$(TARGET_PRODUCT)),)
 PRODUCT_COPY_FILES +=  \
     vendor/androidx/prebuilt/common/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
     vendor/androidx/prebuilt/common/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd
+endif
 
 # Latin IME lib
 PRODUCT_COPY_FILES += \
