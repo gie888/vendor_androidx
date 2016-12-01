@@ -43,7 +43,8 @@ PRODUCT_PACKAGES += \
     Development \
     LatinIME \
     ThemeInterfacer \
-    WallpaperPicker
+    WallpaperPicker \
+    libprotobuf-cpp-full
 
 # Emoji
 PRODUCT_PACKAGES += \
