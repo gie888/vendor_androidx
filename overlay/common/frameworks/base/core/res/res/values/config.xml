@@ -35,4 +35,8 @@
     <!-- default dnd access packages -->
     <string name="config_defaultDndAccessPackages">com.google.android.GoogleCamera</string>
 
+    <!-- Flag indicating whether the assist disclosure can be disabled using
+         ASSIST_DISCLOSURE_ENABLED. -->
+    <bool name="config_allowDisablingAssistDisclosure">true</bool>
+
 </resources>
