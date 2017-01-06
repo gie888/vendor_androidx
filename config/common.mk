@@ -43,7 +43,8 @@ PRODUCT_PACKAGES += \
     Camera \
     Development \
     LatinIME \
-    masquerade
+    masquerade \
+    WallpaperPicker
 
 # Emoji
 PRODUCT_PACKAGES += \
