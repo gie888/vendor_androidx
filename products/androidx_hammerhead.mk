@@ -20,5 +20,5 @@ PRODUCT_RESTRICT_VENDOR_FILES := false
 # Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=hammerhead \
-    BUILD_FINGERPRINT=google/hammerhead/hammerhead:7.1.1/NMF26V/3562348:user/release-keys \
-    PRIVATE_BUILD_DESC="hammerhead-user 7.1.1 NMF26V 3562348 release-keys"
+    BUILD_FINGERPRINT=google/hammerhead/hammerhead:7.1.1/N6F26U/3687496:user/release-keys \
+    PRIVATE_BUILD_DESC="hammerhead-user 7.1.1 N6F26U 3687496 release-keys"
